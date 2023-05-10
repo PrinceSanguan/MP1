@@ -3,10 +3,14 @@
 }
 
 .dfalogin {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 45px;
     margin-bottom: 10px;
     margin-left: 32.6%;
+    margin-right: 32.6%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .username-input {
@@ -42,4 +46,10 @@
     background-color: rgb(73, 73, 236);
     color: beige;
     font-weight: bold;
+}
+
+.space {
+    background-color: purple;
+    margin-top: 0px;
+    padding-bottom: 50px;
 }

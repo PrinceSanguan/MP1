@@ -1,0 +1,45 @@
+.div-login {
+    background-color: blueviolet;
+}
+
+.dfalogin {
+    margin-top: 40px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-left: 32.6%;
+}
+
+.username-input {
+    display: block;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 31.3%;
+    margin-bottom: 2%;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    margin-top: 10pxpx;
+}
+
+.password-input {
+    display: block;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 31.3%;
+    margin-bottom: 2%;
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+
+.button-login {
+    font-size: 30px;
+    width: 509px;
+    margin-left: 370px;
+    cursor: pointer;
+    margin-left: 31.3%;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    border-radius: 50px;
+    background-color: rgb(73, 73, 236);
+    color: beige;
+    font-weight: bold;
+}

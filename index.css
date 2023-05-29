@@ -193,3 +193,17 @@ input {
 .extra-line a {
   color: #0095b6;
 }
+
+.div-back {
+  float: right;
+  margin-top: 50px;
+}
+
+.div-back a {
+  font-size: 25px;
+  margin-right: 100px;
+}
+.authentication-image,
+.passport-image {
+  display: inline-block;
+}

@@ -17,7 +17,7 @@
     />
 
     <title>DFA website</title>
-    <link rel="stylesheet" href="DFA.CSS" />
+    <link rel="stylesheet" href="index.css.CSS" />
   </head>
   <body>
     <section>
@@ -30,7 +30,7 @@
             <li><a href="#authentication">AUTHENTICATION</a></li>
           </ul>
         </li>
-        <li><a href="#">EMPLOYEE'S PORTAL</a></li>
+        <li><a href="#employee's-portal">EMPLOYEE'S PORTAL</a></li>
         <li><a href="#">ABOUT US</a></li>
         <li><a href="#">CONTACT US</a></li>
       </ul>
@@ -39,6 +39,7 @@
       </div>
 
       <div id="clock">
+        <h1>Philippine Standard Time</h1>
         <h1 id="date-time"></h1>
       </div>
 
@@ -101,23 +102,31 @@
 
       <br />
       <h1>GENERAL INFORMATION</h1>
+      <ul>
+        <li>
+          1. The Philippine Passport is at all times the property of the
+          Republic of the Philippines. It must be surrendered upon demand by an
+          authorized representative of the Philippine Government.
+        </li>
+        <li>
+          2. Alteration, addition, or destruction of contents is strictly
+          prohibited. Any unauthorized change will render a passport invalid and
+          will have accompanying penalties.
+        </li>
+        <li>
+          3. Using the passport as collateral is against the law and will
+          automatically render the passport cancelled.
+        </li>
+        <li>
+          4. The information provided in the passport application form must be
+          true and correct. The documents that will be submitted should be
+          complete and authentic. Under the law, making false statements in the
+          passport application form, furnishing falsified or forged documents in
+          support thereof are punishable by law.
+        </li>
+      </ul>
       <br />
-      <p>
-        The Philippine Passport is at all times the property of the Republic of
-        the Philippines. It must be surrendered upon demand by an authorized
-        representative of the Philippine Government.<br /><br />
-        Alteration, addition, or destruction of contents is strictly prohibited.
-        Any unauthorized change will render a passport invalid and will have
-        accompanying penalties.<br /><br />
-        Using the passport as collateral is against the law and will
-        automatically render the passport cancelled.<br /><br />
-        The information provided in the passport application form must be true
-        and correct. The documents that will be submitted should be complete and
-        authentic. Under the law, making false statements in the passport
-        application form, furnishing falsified or forged documents in support
-        thereof are punishable by law.
-      </p>
-      <br />
+
       <h3>BEFORE APPLYING FOR A PHILIPPINE PASSPORT:</h3>
 
       <ul>
@@ -166,6 +175,76 @@
           src="images/authentication.png"
           alt="authentication-image"
         />
+      </div>
+      <br />
+      <h1>GENERAL INFORMATION</h1>
+      <p class="authentication-p">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“Authentication” is a generic term
+        that commonly refers to the process of verifying the origin of a public
+        document by certifying the authenticity of the signature and legal
+        authority of the public official who signed it. It does not, however,
+        certify the content of the public document to which it relates.
+
+        <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On 14 May 2019, the Hague Convention
+        Abolishing the Requirement of Legalization for Foreign Public Documents
+        (Apostille Convention) entered into force for the Philippines. <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thenceforth, an Apostille is
+        attached, as proof of authentication, to the underlying Philippine
+        public document that will be used abroad. After authentication by the
+        DFA, there is no more need for legalization by the concerned Foreign
+        Embassy / Consulate if the country of destination of the authenticated
+        document is also a State Party to the Apostille Convention (except for
+        Austria, Finland, Germany and Greece as they have objected to the
+        Philippines’ accession). <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, if the country of
+        destination of the document is NOT a State Party to the Convention, or
+        if the document will be submitted in Austria, Finland, Germany, or
+        Greece, legalization by the concerned Foreign Embassy / Consulate is
+        still required.
+      </p>
+    </section>
+
+    <section id="employee's-portal">
+      <div class="flex-r container">
+        <div class="flex-r login-wrapper">
+          <div class="login-text">
+            <div class="logo">
+              <span><i class="fab fa-speakap"></i></span>
+              <span
+                >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                  src="images/dfa-logo1.jpg"
+                  alt="dfa logo"
+                  width="100px"
+              /></span>
+            </div>
+            <h1>Sign In</h1>
+            <p>Only DFA employee can access here.</p>
+
+            <form class="flex-c">
+              <div class="input-box">
+                <span class="label">E-mail</span>
+                <div class="flex-r input">
+                  <input type="text" />
+                  <i class="fas fa-at"></i>
+                </div>
+              </div>
+
+              <div class="input-box">
+                <span class="label">Password</span>
+                <div class="flex-r input">
+                  <input type="password" />
+                  <i class="fas fa-lock"></i>
+                </div>
+              </div>
+
+              <input class="btn" type="submit" value="Create an Account" />
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 

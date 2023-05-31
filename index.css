@@ -91,7 +91,9 @@ section {
 }
 .flex-c {
   flex-direction: column;
+  text-align: center;
 }
+
 .flex-r {
   flex-direction: row;
 }
@@ -175,17 +177,19 @@ input {
 .btn {
   color: #ffffff;
   border-radius: 30px;
-  padding: 10px 15px;
+  padding: 10px 45px;
   background: linear-gradient(122.33deg, #68bed1 30.62%, #1e94e9 100%);
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 16px;
   transition: all 0.3s linear;
+  margin-left: 45px;
 }
 
 .btn:hover {
   transform: translateY(-2px);
 }
+
 .extra-line {
   font-size: 15px;
   font-weight: 600;
@@ -206,4 +210,57 @@ input {
 .authentication-image,
 .passport-image {
   display: inline-block;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.vision-mission {
+  width: 480px;
+}
+
+.about-uss {
+  width: 100%;
+}
+
+.about-uss h1 {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.about-uss a {
+  font-size: 25px;
+  float: right;
+  margin-right: 100px;
+}
+
+.contact-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-map {
+  margin-top: 40px;
+}
+
+.contact-us h2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.contact-us h3 {
+  color: #1e94e9;
+  font-size: 50px;
+}
+
+.contact-us h4 {
+  font-size: 30px;
 }
